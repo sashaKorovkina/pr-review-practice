@@ -29,7 +29,7 @@ I made this while preparing for a pull request review interview and thought it c
 - In most cases, you would need to open a review session. This is useful if you are making a bunch of comments which you don't want to spam the receipient with
 
 5. Merging
-- How are we going to merge? We have the options of: merging directly, squashing and merging or rebasing and merging. The use cases for each are: merge directly if you are happy with the commit history and it explains the thinking of the developer behind it. Squash and merge if there are too many commits with little changes (e.g. 'imported library' then 'deleted library etc.').
+- How are we going to merge? We have the options of: merging directly, squashing and merging or rebasing and merging. The use cases for each are: merge directly if you are happy with the commit history and it explains the thinking of the developer behind it. Squash and merge if there are too many commits with little changes (e.g. 'imported library' then 'deleted library etc.'). Use rebase when you want to maintain a linear commit history, however do not use it on branches which are shared or public as it could impact the work of people who have not pulled in your changes. 
 - Co-author using the GitHub Desktop. You should use this when there were merge conflicts which you wish to resolve while also crediting the original author of the code. 
 
 # Bonus Info
