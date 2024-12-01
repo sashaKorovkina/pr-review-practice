@@ -39,8 +39,6 @@ f3.pack()
 
 l1 = Label(f1, text='QR Code Generator', font=('SugarFont Bold', 30, 'bold'))
 l1.grid(row=0, column=0, columnspan=3, padx=5, pady=10)
-l2 = Label(f1, text='By Harshit', font=('Arial Rounded MT Bold', 15))
-l2.grid(row=0, column=4, sticky='w', pady=10)
 
 l3 = Label(f2, font=('', 10), text='Enter the content')
 l3.grid(row=0, column=0, padx=5)
