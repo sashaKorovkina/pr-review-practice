@@ -1,2 +1,3 @@
-# pr-review-practice
-A repository to practice reviewing pull requests on GitHub 
+# Practice for Your Pull Request Review Interview
+
+I made this while preparing for a pull request review interview and thought it could be helpful for someone out there... 
